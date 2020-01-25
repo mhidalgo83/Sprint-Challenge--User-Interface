@@ -246,7 +246,7 @@ header {
 .nav-bar a {
   text-decoration: none;
   color: black;
-  margin: 2% 0;
+  margin: 4% 0;
   padding: 0 2%;
 }
 
@@ -298,15 +298,21 @@ header {
   border: dashed black 1px;
 }
 
+/* First section */
+
 .about {
   padding: 2%;
 }
+
+/* Second section */
 
 .working {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+/* Card styling in second section */
 
 .card {
   width: 46%;
@@ -316,14 +322,22 @@ header {
 
 .card img {
   width: 100%;
+  margin-bottom: 4%;
 }
 
 .btn {
   font: inherit;
-  margin: 3% 0;
+  margin: 4% 0;
   border-radius: 6px;
   background: white;
   border: solid black 2px;
   padding: 2%;
   width: 33%;
+}
+
+/* Third section */
+
+.together {
+    padding: 2%;
+    margin-bottom: 4%;
 }
