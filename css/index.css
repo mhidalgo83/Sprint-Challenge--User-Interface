@@ -333,11 +333,17 @@ header {
   border: solid black 2px;
   padding: 2%;
   width: 33%;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 
+.btn:hover {
+  background: black;
+  color: white;
+}
 /* Third section */
 
 .together {
-    padding: 2%;
-    margin-bottom: 4%;
+  padding: 2%;
+  margin-bottom: 4%;
 }
